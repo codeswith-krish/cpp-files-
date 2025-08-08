@@ -1,3 +1,4 @@
+// WAP in cpp to find reverse of a number 
 #include <iostream>
 using namespace std;
 class reverse
@@ -17,12 +18,14 @@ public:
   }
   void display()
   {
-    cout<<"reverse of the number : "<<sum;
+    cout << "reverse of the number = " << sum;
   }
 };
 int main()
 {
- reverse a1;
- a1.method();
- a1.display(); 
+  reverse a1;
+  a1.method();
+  a1.display();
+
+  return 0;
 }
