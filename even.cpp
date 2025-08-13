@@ -24,7 +24,7 @@ public:
   {
     if (condition == even)
     {
-      cout << num << "1 is an even number ";
+      cout << num << " is an even number ";
     }
     else
       cout << num << " is an odd number  ";
