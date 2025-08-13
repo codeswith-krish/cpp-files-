@@ -1,3 +1,4 @@
+// Check if a number is even or odd.
 #include <iostream>
 using namespace std;
 class numner_check
@@ -11,7 +12,8 @@ public:
     cin >> num;
     if (num % 2 == 0)
     {
-      condition = even;
+      condition = even; 
+      // storing value of the if (condition ) in condition = even so that i use this on other medthod
     }
     else
     {
@@ -22,10 +24,10 @@ public:
   {
     if (condition == even)
     {
-      cout << num << " num is even ";
+      cout << num << "1 is an even number ";
     }
     else
-      cout << num << " num is odd ";
+      cout << num << " is an odd number  ";
   }
 };
 int main()
